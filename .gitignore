@@ -137,3 +137,10 @@ dist
 # Vite logs files
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
+
+
+# dependencies installed by npm
+node_modules
+
+# build artefacts
+public
