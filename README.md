@@ -3,8 +3,6 @@
 Dit is een klein Eleventy-project, gebaseerd op Markdown en Nunjucks includes.  
 Het doel is het opzetten van een simpele blogstructuur met minimale styling.
 
-
-
 ## Project Structuur
 
 ```
@@ -20,16 +18,14 @@ eleventy-project/
 │  ├─ index.html           # home pagina output
 │  └─ index.md             # md voor home
 ├─ .eleventy.js            # configuratie van eleventy
-├─ .gitignore              # git ignore 
-├─ package.json         
-└─ package-lock.json       
+├─ .gitignore              # git ignore
+├─ package.json
+└─ package-lock.json
 ```
 
+## \_includes/base.njk
 
-
-## _includes/base.njk
-
-- Bevat de basis HTML-structuur van elke pagina  
+- Bevat de basis HTML-structuur van elke pagina
 - Wordt ingeladen in Markdown-bestanden via `layout: base.njk`
 
 ```
@@ -60,6 +56,7 @@ eleventy-project/
 </html>
 
 ```
+
 ## Voorbeeld markdown
 
 ```
@@ -76,10 +73,8 @@ layout: base.njk
 
 _Hier zijn de links:_
 
-### User experience (UX): Bekijk Gist
+### User experience (UX): [Bekijk Gist](https://gist.github.com/halie404/98251f1fa441a902c3e9de1bc2d9bf59)
 
 ### Developer experience (DX): Bekijk Gist
 
 ### Content Management experience (CMX): Bekijk Gist
-
-
