@@ -75,6 +75,6 @@ _Hier zijn de links:_
 
 ### User experience (UX): [Bekijk Gist](https://gist.github.com/halie404/98251f1fa441a902c3e9de1bc2d9bf59)
 
-### Developer experience (DX): Bekijk Gist
+### Developer experience (DX): [Bekijk Gist]
 
-### Content Management experience (CMX): Bekijk Gist
+### Content Management experience (CMX): [Bekijk Gist]
